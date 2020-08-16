@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+html{overflow-y:scroll; overflow-x:hidden; min-height: 100%; position:relative;}
+html, body{margin:0; padding:0; font-size:1em; font-size:calc(85% + 0.1vw); line-height:1.3em; background-color:#112;}
+body{margin: 0 0 50px 0;}
+
+*, *::before, *::after{box-sizing:border-box;}
+
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.uppercase{text-transform:uppercase;}
+.capitalise{text-transform:capitalize;}
+.hidden{display:none;}
+.nospace{margin:0; padding:0; list-style:none;}
+.block{display:block;}
+.inline *{display:inline-block;}
+.inline *:last-child{margin-right:0;}
+.pushright li{margin-right:20px;}
+.pushright li:last-child{margin-right:0;}
+.borderedbox{border:1px solid;}
+.overlay{position:relative; z-index:1;}
+.overlay::after{display:block; position:absolute; top:0; left:0; width:100%; height:100%; content:""; z-index:-1;}
+.bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
+.circle{border-radius:50%; background-clip:padding-box;}
+
+.btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
+
+.icon.fa{display:inline-block; width:60px; height:60px; line-height:58px; border:1px solid; text-align:center; font-size:24px;}
+
+.clear, .group{display:block;}
+.clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
+.clear, .clear::after, .group, .group::after{clear:both;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle; border-radius:5px 5px 0px 0px}
+.imgl{margin:0 15px 10px 0; clear:left;}
+.imgr{margin:0 0 10px 15px; clear:right;}
+
+
+/* Fonts
+--------------------------------------------------------------------------------------------------------------- */
+body, input, textarea, select{font-family:"Avenir Bold", sans-serif;}
+h1, h2, h3, h4, h5, h6, .heading{font-family:"Avenir", sans-serif;}
+
+
+/* Forms
+--------------------------------------------------------------------------------------------------------------- */
+form, fieldset, legend{margin:0; padding:10; border:none; display:block;}
+legend{display:none;}
+label, input, textarea, select, button{display:block; box-sizing: border-box; border: 4px solid #0077C8; border-radius: 10px; resize:none; font-size:inherit; font-family:inherit; margin:auto; color: #757575; background-color: #223; padding: 10px; width: 35%; min-width: 300px;}
+input{ text-align:center; width: auto; padding: 10px; color:#FDDA24; min-width: 0px;}
+label{margin-bottom:5px;}
+:required, :invalid{outline:none; box-shadow:none;}
+
+
+/* Generalise
+--------------------------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 10px 0; font-size:1.5em; line-height:normal; font-weight:normal;}
+
+.heading.nospace{margin-bottom:0;}
+
+address{font-style:normal; font-weight:normal;}
+hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
+
+.font-xs{font-size:.8rem;}
+.font-x1{font-size:1.2em;}
+.font-x2{font-size:1.8em;}
+.font-x3{font-size:2.8em;}
+
+.wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:center; word-wrap:break-word;}
+/*
+The "hoc" class is a generic class used to centre a containing element horizontally
+It should be used in conjunction with a second class or ID
+*/
+.hoc{display:block; margin:0 auto;}
+
+
+/* HTML 5 Overrides
+--------------------------------------------------------------------------------------------------------------- */
+address, article, aside, figcaption, figure, footer, header, main, nav, section{display:block; margin:0; padding:0;}
+
+
+/* Grid
+--------------------------------------------------------------------------------------------------------------- */
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter, .one_sixth{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+
+.centered{float:none;}
+.force_right{float:right;}
+
+.first{margin-left:0; clear:left;}
+
+.one_quarter{width:22.69938650306748%;}
+.one_third{width:31.28834355828221%;}
+.one_half, .two_quarter{width:48.46625766871166%;}
+.two_third{width:65.6441717791411%;}
+.three_quarter{width:74.23312883435584%;}
+.one_sixth{width: 14.1104294479%;}
+
+
+/* Spacing
+--------------------------------------------------------------------------------------------------------------- */
+.btmspace-10{margin-bottom:10px;}
+.btmspace-15{margin-bottom:15px;}
+.btmspace-30{margin-bottom:30px;}
+.btmspace-50{margin-bottom:50px;}
+.btmspace-80{margin-bottom:30px;}
+
+.inspace-5{padding:5px;}
+.inspace-10{padding:10px;}
+.inspace-15{padding:15px;}
+.inspace-30{padding:30px;}
+.inspace-50{padding:50px;}
+.inspace-80{padding:80px;}
