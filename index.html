@@ -7,6 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 		<link rel="shortcut icon" href="layout/img/logo.png">
+		<!-- JAVASCRIPT -->
+		<script src="layout/scripts/jquery.min.js"></script>
+		<script src="layout/scripts/jquery.backtotop.js"></script>
+		<script src="layout/scripts/jquery.mobilemenu.js"></script>
+		<script src="layout/scripts/googleform-suggest.js"></script>
+		<script> $(function(){ $("#footer_custom").load("./layout/page_elements/footer.html"); }); </script>
 	</head>
 	
 	<body id="top">
@@ -20,7 +26,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 		<!-- End Top Background Image Wrapper -->
 
 		<div class="wrapper row3">
@@ -128,6 +133,15 @@
 								<img class="borders" src="layout/img/tutortrac.png">
 								<div class="txtwrap txt-borders">Tutoring</div>
 							</a>							
+						</article>
+					</li>
+				</ul>
+				<ul class="nospace group element btmspace-80">
+					<li class="one_third first centered small_screen_stretch">
+						<article>
+							<a href="./employee">
+								<div class="txtwrap cyan-full-border">Employee Page</div>
+							</a>
 						</article>
 					</li>
 				</ul>
@@ -249,7 +263,7 @@
 					</li>
 					<li class="one_sixth small_screen_stretch">
 						<article>
-							<a target="_blank" href="https://ssbprod.uah.edu/PROD/bwskfcls.p_disp_dyn_ctlg">
+							<a target="_blank" href="https://www.uah.edu/cgi-bin/schedule.pl">
 								<div class="txtwrap full-border">Course Catalog</div>
 							</a>
 						</article>
@@ -353,7 +367,7 @@
 					<li class="one_sixth small_screen_stretch">
 						<article>
 							<a target="_blank" href="https://healthcheck.staysafetogether.org/30">
-								<div class="txtwrap alt2-full-border">Charger Healthcheck</div>
+								<div class="txtwrap green-full-border">Charger Healthcheck</div>
 							</a>
 						</article>
 					</li>
@@ -375,28 +389,28 @@
 					</li>
 					<li class="one_sixth small_screen_stretch">
 						<article>
-							<a href="https://uah.link/studentlife">
+							<a href="./studentlife">
 								<div class="txtwrap full-border">Student Life</div>
 							</a>
 						</article>
 					</li>
 					<li class="one_sixth small_screen_stretch">
 						<article>
-							<a href="https://uah.link/forms">
+							<a href="./forms">
 								<div class="txtwrap full-border">Forms</div>
 							</a>
 						</article>
 					</li>
 					<li class="one_sixth small_screen_stretch">
 						<article>
-							<a href="https://uah.link/policies">
+							<a href="./policies">
 								<div class="txtwrap full-border">Policies</div>
 							</a>
 						</article>
 					</li>
 					<li class="one_sixth small_screen_stretch">
 						<article>
-							<a href="https://uah.link/statement">
+							<a href="./statement">
 								<div class="txtwrap full-border">University Statement</div>
 							</a>
 						</article>
@@ -404,7 +418,7 @@
 					<li class="one_sixth small_screen_stretch">
 						<article>
 							<a target="_blank" href="https://uasystem.edu/covid-19-dashboard">
-								<div class="txtwrap alt2-full-border">COVID-19 Dashboard</div>
+								<div class="txtwrap green-full-border">COVID-19 Dashboard</div>
 							</a>
 						</article>
 					</li>
@@ -415,14 +429,14 @@
 				<ul class="nospace group element btmspace-80">
 					<li class="one_third first small_screen_stretch">
 						<article>
-							<a href="https://uah.link/suggest">
-								<div class="txtwrap alt-full-border">Suggestions & Feedback</div>
+							<a href="./suggest">
+								<div class="txtwrap yellow-full-border">Suggestions & Feedback</div>
 							</a>
 						</article>
 					</li>
 					<li class="one_sixth small_screen_stretch force_right">
 						<article>
-							<a href="https://uah.link/changelog">
+							<a href="./changelog">
 								<div class="txtwrap full-border">Changelog</div>
 							</a>
 						</article>
@@ -433,17 +447,7 @@
 			</main>
 		</div>
 			
-		<div class="wrapper row5 footer">
-		  <div id="copyright" class="hoc clear">
-			<p style="margin: auto; text-align: center;">There's too much stuff on the official myUAH portal.</br>Here's a cleaner and hopefully more efficient page. </p>
-		  </div>
-		</div>
-		
-		<!-- JAVASCRIPT -->
-		<script src="layout/scripts/jquery.min.js"></script>
-		<script src="layout/scripts/jquery.backtotop.js"></script>
-		<script src="layout/scripts/jquery.mobilemenu.js"></script>
-		<script src="layout/scripts/googleform-suggest.js"></script>
+		<div id="footer_custom"></div>
 		
 	</body>
 </html>

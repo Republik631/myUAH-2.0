@@ -5,17 +5,17 @@
 --------------------------------------------------------------------------------------------------------------- */
 @font-face {
   font-family: "Avenir";
-  src: url("https://uah.link/layout/styles/fonts/AvenirLTStd-Medium.otf");
+  src: url("./fonts/AvenirLTStd-Medium.otf");
 }
 
 @font-face {
   font-family: "Avenir Bold";
-  src: url("https://uah.link/layout/styles/fonts/AvenirLTStd-Black.otf");
+  src: url("./fonts/AvenirLTStd-Black.otf");
 }
 
 @font-face {
   font-family: "Avenir Narrow";
-  src: url("https://uah.link/layout/styles/fonts/AvenirLTStd-Book.otf");
+  src: url("./fonts/AvenirLTStd-Book.otf");
 }
 
 /* Gradient
@@ -318,8 +318,10 @@ input:hover, textarea:hover, *:required:hover{filter: brightness(150%);}
 .row3 .txt-borders{border-radius: 0px 0px 10px 10px; border:4px solid #0077C8; border-top:0px;}
 .borders{border-radius: 10px 10px 0px 0px; border:4px solid #0077C8; border-bottom:0px;}
 .full-border{border-radius: 10px 10px 10px 10px; border:4px solid #0077C8;}
-.alt-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #FDDA24;}
-.alt2-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #80BC00;}
+.yellow-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #FDDA24;}
+.green-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #80BC00;}
+.cyan-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #00E6E6;}
+.red-full-border{border-radius: 10px 10px 10px 10px; border:4px solid #A00; background-color:rgba(201, 50, 50, 0.3)}
 
 /* Footer */
 #footer .heading{color:#FFFFFF;}
