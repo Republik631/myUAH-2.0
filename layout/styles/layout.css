@@ -59,6 +59,8 @@
 #pageintro p:first-of-type{margin-bottom:30px;}
 #pageintro footer{margin-top:80px;}
 
+#header-img{width:60%;}
+
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
@@ -422,6 +424,7 @@ article:hover {
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter, .one_sixth{display:inline-block; float:none; width:29%; margin:0 1.5% 20px 1.5%; padding:0;}
+	#header-img{width:100%;}
 
 	#pageintro{padding:17%}
 
