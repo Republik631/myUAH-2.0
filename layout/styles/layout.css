@@ -18,6 +18,11 @@
   src: url("./fonts/AvenirLTStd-Book.otf");
 }
 
+@font-face {
+  font-family: "Consolas";
+  src: url("./fonts/consolas.ttf");
+}
+
 /* Gradient
 --------------------------------------------------------------------------------------------------------------- */
 @keyframes gradientBG {
@@ -280,11 +285,10 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#CBCBCB; background-color:#252525;}
-a{color:#757575;}
+a{color:#ABABAB;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#757575;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{outline-color: #0077C8; outline-offset: -2px; outline-style: auto; outline-width: 1px;}
 input:hover, textarea:hover, *:required:hover{filter: brightness(150%);}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
@@ -297,9 +301,9 @@ input:hover, textarea:hover, *:required:hover{filter: brightness(150%);}
 .row0, .row0 a{color:#FFFFFF;}
 .row1{color:#474747; background-color:#FFFFFF; border-color:#F6F6F6;}
 .row2{color:#CBCBCB; background-color:#F6F6F6;}
-.row3{color:#757575; background-color:#112;}
-.row4{color:#CBCBCB;}
-.row5{color:#757575; background-color:#000;}
+.row3{color:#ABABAB; background-color:#111112;}
+.row4{color:#ABABAB;}
+.row5{color:#ABABAB; background-color:#000;}
 
 
 /* Top Bar */
@@ -442,7 +446,8 @@ article:hover {
 }
 
 @media screen and (max-width:950px){
-	.small_screen_stretch{display:inline-block; float:none; width:45%; margin:0 1.5% 20px 1.5%; padding:0;}	
+	.small_screen_stretch{display:inline-block; float:none; width:45%; margin:0 1.5% 20px 1.5%; padding:0;}
+	.small_screen_stretch_single{display:inline-block; float:none; width:65%; margin:0 1.5% 20px 1.5%; padding:0;}	
 }
 @media screen and (max-width:750px){
 	.full_stretch{display:block; float:none; width:auto; margin:0 1.5% 20px 1.5%; padding:0;}
