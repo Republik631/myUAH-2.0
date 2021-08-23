@@ -1,5 +1,9 @@
-DirectoryIndex index.html
+#DirectoryIndex index.html
 
 RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^$ https://sso.uah.edu/cas/login?service=http://alt.uah.edu [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
